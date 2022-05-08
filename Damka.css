@@ -1,0 +1,65 @@
+
+*{
+    box-sizing: border-box;
+}
+.box
+{
+    height: 800px;
+    width: 800px;
+    margin: 20vw auto;
+    outline: 7px solid black ;
+}
+.board
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.squer
+{
+    height: 100%;
+    width: 100%;
+} 
+.white
+{
+    background-color: rgb(220, 225, 200) ;
+}
+.black
+{
+    background-color: rgb(120, 75, 10)
+}
+.white-peice
+{
+    width: 60%;
+    height: 60%;
+    margin: 20% auto;
+    background-color:  rgb(210, 225, 200);
+    border-radius: 50%;
+    z-index: 10;
+}
+.black-peice
+{
+    width: 60%;
+    height: 60%;
+    margin: 20% auto;
+    background-color:rgba(27, 23, 23, 0.9);
+    border-radius: 50%;
+    z-index: 10;
+}
+.empty{
+    background-color:rgba(27, 23, 23, 0.9);
+}
+.legal-steps{
+    background-color:rgba(27, 23, 23, 0.5);
+    /* //rgba(60, 60, 60, 0.7) */
+}
+.queen
+{
+    width: 30%;
+    height: 30%;
+    margin: 20% auto;
+    background-color:rgba(127, 27, 228, 0.9);
+    border-radius: 100%;
+    z-index: 30;
+}
